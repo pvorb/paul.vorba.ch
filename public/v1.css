@@ -1,5 +1,5 @@
 * {
-  font: 100%/1.5 monospace;
+  font: normal 100%/1.5 monospace;
   margin: 0;
 }
 
@@ -17,6 +17,14 @@ body {
   width: 24em;
 }
 
+.tags {
+  font-style: italic;
+}
+
+b, strong, h1 {
+  font-weight: bold;
+}
+
 h1 {
   color: #000;
 }
@@ -29,4 +37,14 @@ ul {
 ul li:before {
   color: #999;
   content: "* "
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  #contact {
+    border: 1px solid #aaa;
+  }
 }
