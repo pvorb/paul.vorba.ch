@@ -29,6 +29,11 @@ h1 {
   color: #000;
 }
 
+h1 .degree {
+  color: #666;
+  font-size: .8em;
+}
+
 ul {
   padding: 0;
   list-style: none;
