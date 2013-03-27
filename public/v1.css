@@ -11,10 +11,25 @@ body {
 
 #contact {
   background: #fff;
+  display: inline-block;
   margin: 5em auto;
-  padding: .8em 1em;
+  overflow: hidden;
+  padding: 1em 1em;
   text-align: left;
-  width: 24em;
+}
+
+#information, #picture {
+  display: inline;
+  float: left;
+}
+
+#information {
+  margin-right: 1em;
+  width: 220px;
+}
+
+#picture {
+  width: auto;
 }
 
 .tags {
@@ -27,6 +42,7 @@ b, strong, h1 {
 
 h1 {
   color: #000;
+  margin-bottom: .5em;
 }
 
 h1 .degree {
@@ -35,6 +51,7 @@ h1 .degree {
 }
 
 ul {
+  margin-top: .5em;
   padding: 0;
   list-style: none;
 }
